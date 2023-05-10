@@ -22,7 +22,7 @@ const seaportValidatorArtifact = JSON.parse(
 
 export const SEAPORT_VALIDATOR_ABI = seaportValidatorArtifact.abi;
 export const SEAPORT_VALIDATOR_ADDRESS =
-  "0xF75194740067D6E4000000003b350688DD770000";
+  "0x00000000BE3Af6882A06323fd3f400A9e6A0DC42";
 
 export class SeaportOrderValidator {
   private seaportValidator: Contract;
